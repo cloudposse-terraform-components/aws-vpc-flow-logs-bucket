@@ -5,7 +5,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `vpc`
+# Component: `vpc-flow-logs-bucket`
 
 This component is responsible for provisioning an encrypted S3 bucket which is configured to receive VPC Flow Logs.
 
