@@ -1,0 +1,12 @@
+components:
+  terraform:
+    vpc-flow-logs-bucket/basic:
+      metadata:
+        component: target
+      vars:
+        enabled: true
+        noncurrent_version_expiration_days: 180
+        noncurrent_version_transition_days: 30
+        standard_transition_days: 60
+        glacier_transition_days: 180
+        expiration_days: 365
