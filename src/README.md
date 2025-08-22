@@ -7,8 +7,7 @@ tags:
 
 # Component: `vpc-flow-logs-bucket`
 
-This component is responsible for provisioning an encrypted S3 bucket which is configured to receive VPC Flow Logs.
-
+This component provisions an encrypted S3 bucket configured to receive VPC Flow Logs.
 ## Usage
 
 **Stack Level**: Regional
@@ -32,7 +31,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -96,12 +98,17 @@ No resources.
 |------|-------------|
 | <a name="output_vpc_flow_logs_bucket_arn"></a> [vpc\_flow\_logs\_bucket\_arn](#output\_vpc\_flow\_logs\_bucket\_arn) | VPC Flow Logs bucket ARN |
 | <a name="output_vpc_flow_logs_bucket_id"></a> [vpc\_flow\_logs\_bucket\_id](#output\_vpc\_flow\_logs\_bucket\_id) | VPC Flow Logs bucket ID |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/vpc-flow-logs-bucket) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-vpc-flow-logs-bucket&utm_content=)
+
