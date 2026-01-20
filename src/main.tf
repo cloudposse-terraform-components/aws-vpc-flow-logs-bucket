@@ -13,6 +13,7 @@ module "flow_logs_s3_bucket" {
   traffic_type                       = var.traffic_type
   force_destroy                      = var.force_destroy
   flow_log_enabled                   = false
+  object_lock_configuration          = var.object_lock_configuration
 
   context = module.this.context
 }
